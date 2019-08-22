@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Simple XMLHttpRequest</title>
+    <script type="text/javascript">
+        var xmlHttp;
+        function createXMLHttpRequest() {
+            if (window.ActiveXObject) {
+                xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            else if (window.XMLHttpRequest) {
+                xmlHttp = new XMLHttpRequest();
+            }
+        }
+        function startRequest(item) {
+            createXMLHttpRequest();
+            xmlHttp.onreadystatechange = handleStateChange;
+            xmlHttp.open("GET", "simple?param=" + item, true);
+            xmlHttp.send(null);
+        }
+        function handleStateChange() {
+            if(xmlHttp.readyState == 4) {
+                if(xmlHttp.status == 200) {//这个地方局部刷新，你要显示的内容，欢迎你XXX
+                    document.getElementById('show').innerHTML = "欢迎你" + xmlHttp.responseText;
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<input type="text" name="hello" id="hello" value="hello world" />
+<input type="button" value="Start Basic Asynchronous Request"
+       onclick="javascript:startRequest(document.getElementById('hello').value);" />
+<div id="show"></div>
+</body>
+</html>

@@ -13,7 +13,7 @@ body .bk{
     top: 0;
     background-size: cover;
     transition: all .3s;
-    background-image: url("../../Img/slide_1.jpg");
+    background-image: url("../Img/slide_1.jpg");
     z-index: 800;
 }
 .g-banner {
@@ -320,7 +320,7 @@ body .bk{
     display: inline-block;
     width: 36px;
     height: 36px;
-    background: url(../../Img/path-2019-2.png) no-repeat;
+    background: url(../Img/path-2019-2.png) no-repeat;
     background-size: 100%;
     margin-top: 22px;
 }
@@ -348,7 +348,7 @@ body .bk{
 }
 .path-banner::before {
     content: " ";
-    background: url(../../Img/new-path.png) no-repeat;
+    background: url(../Img/new-path.png) no-repeat;
     width: 68px;
     height: 68px;
     position: absolute;
@@ -405,7 +405,7 @@ body .bk{
     vertical-align: bottom;
     width: 56px;
     height: 36px;
-    background: url(../../Img/icon.png) no-repeat;
+    background: url(../Img/icon.png) no-repeat;
     background-size: 100%;
 }
 .container-types .types-title .tit-icon-l {
@@ -861,7 +861,7 @@ body .bk{
 
 /*精英讲师*/
 .elite-bg{
-    background-image: url("../../Img/bacakground.jpg");
+    background-image: url("../Img/bacakground.jpg");
     background-size: cover;
     height: 408px;
 }
@@ -1128,7 +1128,7 @@ body .bk{
     position: absolute;
     width: 26px;
     height: 18px;
-    background: url(../../Img/champion.png) no-repeat;
+    background: url(../Img/champion.png) no-repeat;
     background-size: 100%;
 }
 .star .part1 .person span.purple{

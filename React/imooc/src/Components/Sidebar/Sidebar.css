@@ -40,7 +40,7 @@
     display: inline-block;
     width: 18px;
     height: 20px;
-    background: url(../../Img/redPacket.png) no-repeat;
+    background: url(../Img/redPacket.png) no-repeat;
     background-size: 100% 100%;
     background-position: top center;
     margin: 2px 0;
@@ -73,7 +73,7 @@
     transition: opacity 0.25s, transform .3s;
     opacity: 0;
     transform-origin: 100% 95%;
-    background: url("../../Img/elevator.png") no-repeat 0 -220px;
+    background: url("../Img/elevator.png") no-repeat 0 -220px;
 }
 .elevator a:hover .download-box{
     opacity: 1;
@@ -89,7 +89,7 @@
     transition: opacity 0.25s, transform .3s;
     opacity: 0;
     transform-origin: 100% 95%;
-    background: url("../../Img/elevator.png") no-repeat 0 0;
+    background: url("../Img/elevator.png") no-repeat 0 0;
 }
 .elevator a:hover .wechat-box{
     opacity: 1;

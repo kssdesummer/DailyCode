@@ -73,7 +73,7 @@ p {
     display: inline-block;
     width: 32px;
     height:32px;
-    background: url(../../Img/idx-btm.png) no-repeat 0 0;
+    background: url(../Img/idx-btm.png) no-repeat 0 0;
     position: absolute;
     background-position: -52px -221px;
     line-height: 28px;
@@ -95,7 +95,7 @@ p {
     top: -216px;
     left: -55px;
     bottom: 40px;
-    background: url(../../Img/gongzong.png) no-repeat 0 0;
+    background: url(../Img/gongzong.png) no-repeat 0 0;
     box-shadow: 1px 5px 8px 0 rgba(7, 17, 27, 0.2);
 }
 .foot .f-contact .qq-wechat .qq:hover i{
@@ -106,7 +106,7 @@ p {
     display: inline-block;
     width: 32px;
     height:32px;
-    background: url(../../Img/idx-btm.png) no-repeat 0 0;
+    background: url(../Img/idx-btm.png) no-repeat 0 0;
     position: absolute;
     background-position: 0 -221px;
     line-height: 28px;

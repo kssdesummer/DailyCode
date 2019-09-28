@@ -11,16 +11,16 @@ import jineng8 from "../../Img/jineng8.png";
 import jishu10 from "../../Img/jishu10.jpeg";
 // 好课图片
 const haokePic = ['haoke2' , 'haoke3', 'haoke4', 'haoke5', 'haoke6', 'haoke7', 'haoke8', 'haoke10'];
-const haoke = haokePic.map(item => require("../../../Img/" + item + ".jpg"));
+const haoke = haokePic.map(item => require("../../Img/" + item + ".jpg"));
 // 新手图片
 const rumenPic = ['xinshou1','xinshou2','rumen1' , 'rumen2', 'rumen3', 'rumen4', 'rumen5', 'rumen6', 'rumen8', 'rumen9', 'rumen10'];
-const rumen = rumenPic.map(item => require("../../../Img/" + item + ".jpg"));
+const rumen = rumenPic.map(item => require("../../Img/" + item + ".jpg"));
 // 技能提升图片
 const jinengPic = ['jineng-up1','jineng-up2','jineng1' , 'jineng2', 'jineng3','jineng4','jineng5' , 'jineng7' ,'jineng9' , 'jineng10', ];
-const jineng = jinengPic.map(item => require("../../../Img/" + item + ".jpg"));
+const jineng = jinengPic.map(item => require("../../Img/" + item + ".jpg"));
 // 前沿技术图片
 const jishuPic = ['jishu-up1','jishu-up2','jishu1','jishu2','jishu3','jishu4','jishu5','jishu6','jishu7','jishu8','jishu9', ];
-const jishu = jishuPic.map(item => require("../../../Img/" + item + ".jpg"));
+const jishu = jishuPic.map(item => require("../../Img/" + item + ".jpg"));
 // 1新课 2升级
 
 const data = [{

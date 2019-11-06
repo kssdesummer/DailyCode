@@ -1,0 +1,65 @@
+# Welcome to Jekyll! 配置页面
+title: 兄弟会-康竞豪
+subtitle: 终生学习者
+description: “日事日毕，日清日高”
+# 头像里面的标题
+avatarTitle: Kss
+# 头像里面的描述
+avatarDesc: Python / 个人学习
+url: "https://kssdesummer.github.io"
+
+# Comment
+comment:
+  disqus: Kss
+  uyan: 123456  # 有言id,登录有言官网申请
+
+# Social
+social:
+  weibo: 15518103321
+  github: kssdesummer
+  # qq mail:
+  mail: 910036938@qq.com
+
+# 百度统计
+# 使用博客模板请去掉或者更换 id
+baidu:
+  id: null
+
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+  title: 博客主页
+
+# Navigation buttons in the front page.s
+nav:
+  - {title: 学习笔记, description: archive, url: '/archive'}
+  - {title: 标签, description: tags, url: '/tags'}
+  - {title: 书籍, description: book, url: '/book'}
+  - {title: 关于博主, description: about, url: '/about'}
+
+# 添加友情链接
+links_title:
+  - {title: zl, description: dashen, url: '/archive'}
+  - {title: l-bot, description: dashen, url: 'http://liu-bot.github.io'}
+  - {title: lizp, description: dashen, url: '/book'}
+  - {title: Auk, description: dashen, url: '/about'}
+
+# Pagination 分页
+# jekyll-sitemap
+plugins: [jekyll-paginate]
+#gems: [jekyll-paginate]
+paginate: 20
+#paginate_path: "page/:num/"
+paginate_path: "blog/page:num"
+gems:
+  - jekyll-paginate
+  - jemoji
+

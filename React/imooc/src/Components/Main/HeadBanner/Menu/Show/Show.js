@@ -15,7 +15,6 @@ class Show extends Component{
                    style={{background:isHover===item.id?"rgba(255,255,255,0.3)":"",
                    color:isHover===item.id?"white":""
                    }
-
                    }>
                     <span className="group">{item.menuName}</span>
                     <i className="imv2-arrow1-r"/>

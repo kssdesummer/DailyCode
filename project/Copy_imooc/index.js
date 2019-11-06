@@ -252,7 +252,7 @@ function AllStar() {
 // 图标隐藏显示
 $(document).scroll(function() {
     var scroH = $(document).scrollTop();  //滚动高度
-    if(scroH >900){  //距离顶部大于900px时
+    if(scroH >900){  //距离顶部大于100px时
         $('.elevator .gototop').css('display','block')
     }else{
         $('.elevator .gototop').css('display','none')
